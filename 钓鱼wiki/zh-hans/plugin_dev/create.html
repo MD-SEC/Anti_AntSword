@@ -1,0 +1,1190 @@
+<!DOCTYPE html><html lang="zh-hans"><head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>&#x521B;&#x5EFA;&#x63D2;&#x4EF6; | &#x4E2D;&#x56FD;&#x8681;&#x5251;</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content>
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="Medici.Yan">
+        
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="https://gstatic.gitbook.com/images/b1c4c86ca817a71628d2debe73be9a64.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-comment/plugin.css">
+        
+    		
+        <link rel="stylesheet" href="../font_awesome/css/font-awesome.min.css">
+        
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="deploy.html">
+    
+    
+    <link rel="prev" href="source_files.html">
+    
+
+        
+    
+<style>
+    .book .book-summary .book-search,
+    .book .book-summary ul.summary {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+    }
+    .book-summary {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        overflow-y: auto;
+    }
+    .book-summary > nav {
+        flex: 1 1 auto;
+        overflow-y: auto;
+        overflow-y: overlay;
+    }
+    .gl-wrapper {
+        margin: 0;
+        display: block;
+        padding: 0;
+        position: relative;
+        line-height: 15px;
+        background: #fafafa;
+    }
+    .gl-wrapper:before {
+        background: -webkit-linear-gradient(to bottom, rgba(250,250,250,0) 0%, #fafafa 100%);
+        background: -moz-linear-gradient(to bottom, rgba(250,250,250,0) 0%, #fafafa 100%);
+        top: -24px;
+        width: 100%;
+        height: 24px;
+        content: "";
+        display: block;
+        position: absolute;
+        background: linear-gradient(to bottom, rgba(250,250,250,0) 0%, #fafafa 100%);
+    }
+    .book.color-theme-1 .gl-wrapper {
+        background: #121212;
+    }
+    .book.color-theme-1 .gl-wrapper:before {
+        background: -webkit-linear-gradient(to bottom, rgba(18,18,18,0) 0%, #121212 100%);
+        background: -moz-linear-gradient(to bottom, rgba(18,18,18,0) 0%, #121212 100%);
+        background: linear-gradient(to bottom, rgba(18,18,18,0) 0%, #121212 100%);
+    }
+    .book.color-theme-2 .gl-wrapper {
+        background: #2e3243;
+    }
+    .book.color-theme-2 .gl-wrapper:before {
+        background: -webkit-linear-gradient(to bottom, rgba(46,50,67,0) 0%, #2e3243 100%);
+        background: -moz-linear-gradient(to bottom, rgba(46,50,67,0) 0%, #2e3243 100%);
+        background: linear-gradient(to bottom, rgba(46,50,67,0) 0%, #2e3243 100%);
+    }
+    .gl-wrapper .gitbook-link {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        color: #9DAAB6;
+        margin: 16px;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        margin-left: 32px;
+        padding-top: 8px;
+        padding-left: 16px;
+        border-radius: 3px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        text-decoration: none;
+        background-color: #E6ECF1;
+        -webkit-box-align: center;
+    }
+    .gl-wrapper .tm-logo {
+        margin: 0;
+        display: block;
+        padding: 0;
+        font-size: 40px;
+    }
+    .gl-wrapper .tm-content {
+        flex: 1;
+        margin: 0;
+        display: block;
+        padding: 0;
+        padding-left: 16px;
+    }
+    .gl-wrapper .tm-content .container {
+        margin: 0;
+        display: block;
+        padding: 0;
+    }
+    .gl-wrapper .tm-content .tm-container .tm-text {
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        line-height: 1.625;
+    }
+</style></head>
+    <body>
+        
+        
+    <div class="book" data-level="10.3" data-chapter-title="&#x521B;&#x5EFA;&#x63D2;&#x4EF6;" data-filepath="plugin_dev/create.md" data-basepath=".." data-revision="Sun Apr 07 2019 11:31:27 GMT+0000 (UTC)" data-innerlanguage="zh-hans">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+                
+                <li>
+                    <a href="https://legacy.gitbook.com/book/medicean/antsword" target="blank" class="custom-link">AntSword&#x6587;&#x6863;</a>
+                </li>
+            
+            
+
+            
+            <li class="divider"></li>
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        AntSword
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="getting_started/index.html">
+            
+                
+                    <a href="../getting_started/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        &#x5FEB;&#x901F;&#x5165;&#x95E8;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="getting_started/get_antsword.html">
+            
+                
+                    <a href="../getting_started/get_antsword.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        &#x83B7;&#x53D6;&#x8681;&#x5251;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="getting_started/language_settings.html">
+            
+                
+                    <a href="../getting_started/language_settings.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        &#x8BED;&#x8A00;&#x8BBE;&#x7F6E;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="getting_started/aproxy_settings.html">
+            
+                
+                    <a href="../getting_started/aproxy_settings.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        &#x4EE3;&#x7406;&#x8BBE;&#x7F6E;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="getting_started/first_shell.html">
+            
+                
+                    <a href="../getting_started/first_shell.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        &#x7B2C;&#x4E00;&#x4E2A;shell
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="shell_manager/index.html">
+            
+                
+                    <a href="../shell_manager/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Shell&#x7BA1;&#x7406;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="shell_manager/main_page.html">
+            
+                
+                    <a href="../shell_manager/main_page.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        &#x4E3B;&#x754C;&#x9762;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="shell_manager/category.html">
+            
+                
+                    <a href="../shell_manager/category.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        &#x5206;&#x7C7B;&#x76EE;&#x5F55;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="shell_manager/shell_config.html">
+            
+                
+                    <a href="../shell_manager/shell_config.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Shell &#x914D;&#x7F6E;
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="file_manager/index.html">
+            
+                
+                    <a href="../file_manager/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        &#x6587;&#x4EF6;&#x7BA1;&#x7406;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="file_manager/main_page.html">
+            
+                
+                    <a href="../file_manager/main_page.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        &#x4E3B;&#x754C;&#x9762;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="file_manager/operation.html">
+            
+                
+                    <a href="../file_manager/operation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        &#x7BA1;&#x7406;&#x64CD;&#x4F5C;
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="terminal/index.html">
+            
+                
+                    <a href="../terminal/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        &#x865A;&#x62DF;&#x7EC8;&#x7AEF;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="terminal/main_page.html">
+            
+                
+                    <a href="../terminal/main_page.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        &#x4E3B;&#x754C;&#x9762;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="terminal/terminal_config.html">
+            
+                
+                    <a href="../terminal/terminal_config.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        &#x7EC8;&#x7AEF;&#x914D;&#x7F6E;
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="database/index.html">
+            
+                
+                    <a href="../database/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        &#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="database/main_page.html">
+            
+                
+                    <a href="../database/main_page.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        &#x4E3B;&#x754C;&#x9762;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="database/database_config.html">
+            
+                
+                    <a href="../database/database_config.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        &#x914D;&#x7F6E;
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="plugin_store/index.html">
+            
+                
+                    <a href="../plugin_store/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        &#x63D2;&#x4EF6;&#x5E02;&#x573A;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="plugin_store/main_page.html">
+            
+                
+                    <a href="../plugin_store/main_page.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        &#x4E3B;&#x754C;&#x9762;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="plugin_store/plugin_store_settings.html">
+            
+                
+                    <a href="../plugin_store/plugin_store_settings.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        &#x63D2;&#x4EF6;&#x5E02;&#x573A;&#x8BBE;&#x7F6E;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="plugin_store/get_plugin.html">
+            
+                
+                    <a href="../plugin_store/get_plugin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        &#x83B7;&#x53D6;&#x63D2;&#x4EF6;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="plugin_store/uninstall_plugin.html">
+            
+                
+                    <a href="../plugin_store/uninstall_plugin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                        &#x5378;&#x8F7D;&#x63D2;&#x4EF6;
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="plugins/load_plugin.html">
+            
+                
+                    <a href="../plugins/load_plugin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        &#x52A0;&#x8F7D;&#x63D2;&#x4EF6;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="settings/index.html">
+            
+                
+                    <a href="../settings/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        &#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="develop/quick_start.html">
+            
+                
+                    <a href="../develop/quick_start.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        &#x5F00;&#x53D1;&#x5165;&#x95E8;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="plugin_dev/index.html">
+            
+                
+                    <a href="index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        &#x63D2;&#x4EF6;&#x5F00;&#x53D1;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.1" data-path="plugin_dev/introduce.html">
+            
+                
+                    <a href="introduce.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.1.</b>
+                        
+                        &#x63D2;&#x4EF6;&#x7B80;&#x4ECB;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="plugin_dev/source_files.html">
+            
+                
+                    <a href="source_files.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.2.</b>
+                        
+                        &#x63D2;&#x4EF6;&#x6E90;&#x6587;&#x4EF6;&#x8BF4;&#x660E;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="10.3" data-path="plugin_dev/create.html">
+            
+                
+                    <a href="create.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.3.</b>
+                        
+                        &#x521B;&#x5EFA;&#x63D2;&#x4EF6;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="plugin_dev/deploy.html">
+            
+                
+                    <a href="deploy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.4.</b>
+                        
+                        &#x53D1;&#x5E03;&#x63D2;&#x4EF6;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="plugin_dev/api.html">
+            
+                
+                    <a href="api.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.5.</b>
+                        
+                        &#x63D2;&#x4EF6;&#x53C2;&#x6570;
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="core_dev/index.html">
+            
+                
+                    <a href="../core_dev/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        &#x6838;&#x5FC3;&#x6846;&#x67B6;&#x5F00;&#x53D1;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="11.1" data-path="core_dev/language/index.html">
+            
+                
+                    <a href="../core_dev/language/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                        &#x8BED;&#x8A00;&#x6A21;&#x7248;&#x5F00;&#x53D1;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="core_dev/encoder/index.html">
+            
+                
+                    <a href="../core_dev/encoder/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                        &#x7F16;&#x7801;&#x5668;&#x5F00;&#x53D1;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="11.2.1" data-path="core_dev/encoder/introduce.html">
+            
+                
+                    <a href="../core_dev/encoder/introduce.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.1.</b>
+                        
+                        &#x7F16;&#x7801;&#x5668;&#x7B80;&#x4ECB;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2.2" data-path="core_dev/encoder/create.html">
+            
+                
+                    <a href="../core_dev/encoder/create.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.2.</b>
+                        
+                        &#x521B;&#x5EFA;&#x7F16;&#x7801;&#x5668;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2.3" data-path="core_dev/encoder/register.html">
+            
+                
+                    <a href="../core_dev/encoder/register.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.3.</b>
+                        
+                        &#x6CE8;&#x518C;&#x7F16;&#x7801;&#x5668;
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="core_dev/database/index.html">
+            
+                
+                    <a href="../core_dev/database/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.3.</b>
+                        
+                        &#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x5F00;&#x53D1;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" data-path="core_dev/shell/index.html">
+            
+                
+                    <a href="../core_dev/shell/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.4.</b>
+                        
+                        Shell &#x5F00;&#x53D1;
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="11.4.1" data-path="core_dev/shell/default_shells.html">
+            
+                
+                    <a href="../core_dev/shell/default_shells.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.4.1.</b>
+                        
+                        &#x9ED8;&#x8BA4; Shell &#x5F00;&#x53D1;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4.2" data-path="core_dev/shell/custom_shells.html">
+            
+                
+                    <a href="../core_dev/shell/custom_shells.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.4.2.</b>
+                        
+                        CUSTOM &#x7C7B;&#x670D;&#x52A1;&#x7AEF;&#x5F00;&#x53D1;
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="contribute_docs.html">
+            
+                
+                    <a href="../contribute_docs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        &#x652F;&#x6301;&#x8681;&#x5251;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="CONTENTS.html">
+            
+                
+                    <a href="../CONTENTS.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        &#x76EE;&#x5F55;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="CHANGELOG.html">
+            
+                
+                    <a href="../CHANGELOG.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        &#x6539;&#x52A8;&#x5386;&#x53F2;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="THANKS.html">
+            
+                
+                    <a href="../THANKS.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        &#x611F;&#x8C22;&#x5217;&#x8868;
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16">
+            
+            <span><b>16.</b> &#x6CD5;&#x5F8B;&#x58F0;&#x660E;</span>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            
+            
+        </ul>
+    </nav>
+
+<div class="gl-wrapper">
+    <a class="gitbook-link" href="https://www.gitbook.com?utm_source=public_site_legacy&amp;utm_medium=referral&amp;utm_campaign=trademark&amp;utm_term=medicean&amp;utm_content=powered_by" target="blank">
+        <div class="tm-logo">
+            <svg preserveAspectRatio="xMidYMid meet" height="1em" width="1em" fill="currentColor" viewBox="0 0 1067 769" xmlns="http://www.w3.org/2000/svg" stroke="none" class="icon-7f6730be--text-3f89f380"><g><path d="M480.026 640.677c17.205 0 31.2 13.997 31.2 31.194s-13.995 31.193-31.2 31.193c-17.197 0-31.193-13.996-31.193-31.193 0-17.197 13.996-31.194 31.193-31.194m489.93-193.226c-17.203 0-31.2-13.998-31.2-31.195 0-17.204 13.997-31.2 31.2-31.2 17.198 0 31.194 13.996 31.194 31.2 0 17.197-13.996 31.195-31.193 31.195m0-127.804c-53.269 0-96.609 43.34-96.609 96.609 0 10.373 1.723 20.702 5.123 30.741L559.328 616.879c-18.132-26.128-47.521-41.617-79.302-41.617-36.821 0-70.391 21.065-86.63 54.003L106.68 478.109c-30.288-15.927-52.965-65.817-50.56-111.223 1.248-23.687 9.438-42.071 21.897-49.17 7.916-4.493 17.436-4.099 27.526 1.188l1.916 1.01c75.96 40.022 324.6 170.981 335.063 175.844 16.157 7.47 25.14 10.5 52.659-2.547l513.958-267.3c7.53-2.844 16.315-10.062 16.315-21.023 0-15.205-15.72-21.199-15.765-21.199-29.218-14.018-74.163-35.054-117.987-55.57C798.033 84.26 691.861 34.547 645.23 10.132c-40.253-21.072-72.655-3.311-78.432.282l-11.227 5.555C345.727 119.743 64.898 258.826 48.911 268.553 20.278 285.973 2.547 320.679.252 363.768c-3.586 68.304 31.261 139.506 81.069 165.634l303.172 156.354c6.83 47.306 47.55 82.725 95.532 82.725 52.78 0 95.808-42.546 96.603-95.14L910.541 492.38c16.93 13.233 37.92 20.486 59.416 20.486 53.268 0 96.61-43.341 96.61-96.61s-43.342-96.61-96.61-96.61" fill-rule="evenodd"/></g></svg>
+        </div>
+        <div class="tm-content">
+            <div class="tm-container">
+                <span class="tm-text">
+                    Powered by <b>GitBook</b>
+                </span>
+            </div>
+        </div>
+    </a>
+</div></div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../zh-hans.html">&#x4E2D;&#x56FD;&#x8681;&#x5251;</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="&#x521B;&#x5EFA;&#x63D2;&#x4EF6;">&#x521B;&#x5EFA;&#x63D2;&#x4EF6;</h2>
+<h3 id="&#x51C6;&#x5907;&#x5DE5;&#x4F5C;">&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</h3>
+<p>&#x521B;&#x5EFA;&#x63D2;&#x4EF6;&#x524D;&#x9700;&#x8981;&#x5148;&#x6253;&#x5F00;&#x300C;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;&#x300D;</p>
+<p>&#x8FDB;&#x5165;&#x300C;&#x63D2;&#x4EF6;&#x4E2D;&#x5FC3;&#x300D;&#xFF0C;&#x9009;&#x62E9;&#x300C;&#x8BBE;&#x7F6E;&#x4E2D;&#x5FC3;&#x300D;&#x9762;&#x677F;&#xFF0C;&#x6253;&#x5F00;&#x300C;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;&#x300D;&#xFF0C;&#x8BBE;&#x7F6E;&#x597D;&#x63D2;&#x4EF6;&#x5F00;&#x53D1;&#x76EE;&#x5F55;&#x540E;&#xFF0C;&#x70B9;&#x51FB;&#x300C;&#x4FDD;&#x5B58;&#x300D;&#x6309;&#x94AE;&#x3002;&#x4E0B;&#x6B21;&#x8FDB;&#x5165;&#x63D2;&#x4EF6;&#x4E2D;&#x5FC3;&#x540E;&#x4F1A;&#x751F;&#x6548;&#x3002;</p>
+<blockquote>
+<p>Tips: &#x9F20;&#x6807;&#x300C;&#x53F3;&#x952E;&#x300D;&#x70B9;&#x51FB;&#x300C;&#x63D2;&#x4EF6;&#x4E2D;&#x5FC3;&#x7684;&#x56FE;&#x6807;&#x300D;&#x53EF;&#x5FEB;&#x901F;&#x91CD;&#x65B0;&#x52A0;&#x8F7D;&#x63D2;&#x4EF6;&#x4E2D;&#x5FC3;</p>
+</blockquote>
+<p><img src="http://as.xuanbo.cc/doc/plugin_dev/create_1.png" alt></p>
+<p>&#x5F00;&#x542F;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;&#x540E;&#xFF0C;&#x63D2;&#x4EF6;&#x4E2D;&#x5FC3;&#x4F1A;&#x591A;&#x51FA;&#x300C;&#x5F00;&#x53D1;&#x4ED3;&#x5E93;&#x300D;&#x9762;&#x677F;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x53EF;&#x770B;&#x5230;&#x5F00;&#x53D1;&#x4ED3;&#x5E93;&#x4E2D;&#x7684;&#x63D2;&#x4EF6;&#x3002;</p>
+<h3 id="&#x521B;&#x5EFA;-myphpinfo-&#x63D2;&#x4EF6;">&#x521B;&#x5EFA; myphpinfo &#x63D2;&#x4EF6;</h3>
+<h4 id="&#x63D2;&#x4EF6;&#x529F;&#x80FD;&#x5206;&#x6790;">&#x63D2;&#x4EF6;&#x529F;&#x80FD;&#x5206;&#x6790;</h4>
+<p>&#x8FD9;&#x4E2A;&#x63D2;&#x4EF6;&#x662F;&#x7528;&#x6765;&#x5411;&#x7528;&#x6237;&#x5C55;&#x793A; Shell &#x7684; phpinfo &#x4FE1;&#x606F;&#x7684;&#xFF0C;&#x6D41;&#x7A0B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li>&#x7528;&#x6237;&#x9009;&#x62E9;&#x8981;&#x52A0;&#x8F7D;&#x63D2;&#x4EF6;&#x7684; Shell&#xFF08;&#x7C7B;&#x578B;&#x4E3A; PHP&#xFF09;</li>
+<li>&#x7528;&#x6237;&#x4ECE;&#x52A0;&#x8F7D;&#x63D2;&#x4EF6;&#x5217;&#x8868;&#x4E2D;&#x9009;&#x62E9;<code>myphpinfo</code>&#x63D2;&#x4EF6;</li>
+<li>&#x5411;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x67E5;&#x770B;<code>phpinfo</code>&#x4FE1;&#x606F;&#x4EE3;&#x7801;</li>
+<li>&#x8FD4;&#x56DE;<code>phpinfo</code>&#x4FE1;&#x606F;&#x7ED9;&#x63D2;&#x4EF6;</li>
+<li>&#x63D2;&#x4EF6;&#x5411;&#x7528;&#x6237;&#x5C55;&#x793A;<code>phpinfo</code>&#x4FE1;&#x606F;</li>
+</ol>
+<h4 id="&#x521B;&#x5EFA;&#x57FA;&#x672C;&#x76EE;&#x5F55;&#x7ED3;&#x6784;">&#x521B;&#x5EFA;&#x57FA;&#x672C;&#x76EE;&#x5F55;&#x7ED3;&#x6784;</h4>
+<ol>
+<li>&#x6253;&#x5F00;&#x63D2;&#x4EF6;&#x5F00;&#x53D1;&#x76EE;&#x5F55;&#xFF08;&#x5728;&#x51C6;&#x5907;&#x5DE5;&#x4F5C;&#x4E2D;&#x5DF2;&#x7ECF;&#x8BBE;&#x7F6E;&#xFF09;&#xFF0C;&#x65B0;&#x5EFA;&#x76EE;&#x5F55; <code>myphpinfo</code>,&#x7136;&#x540E;&#x8FDB;&#x5165;&#x8BE5;&#x76EE;&#x5F55;</li>
+<li>&#x65B0;&#x5EFA; <code>README.md</code> &#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x8BE6;&#x7EC6;&#x8BF4;&#x660E;&#x8BE5;&#x63D2;&#x4EF6;</li>
+<li><p>&#x65B0;&#x5EFA; <code>package.json</code> &#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x683C;&#x5F0F;&#x5316;&#x63D2;&#x4EF6;&#x4FE1;&#x606F;&#xFF0C;&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>{
+&quot;name&quot;: &quot;phpinfo &#x4FE1;&#x606F;&#x67E5;&#x770B;&quot;,
+&quot;name_en&quot;: &quot;myphpinfo&quot;,
+&quot;main&quot;: &quot;main.js&quot;,
+&quot;icon&quot;: &quot;rocket&quot;,
+&quot;version&quot;: &quot;0.1&quot;,
+&quot;description&quot;: &quot;&#x6211;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x63D2;&#x4EF6;&#xFF0C;&#x67E5;&#x770B; phpinfo &#x4FE1;&#x606F;&quot;,
+&quot;description_en&quot;: &quot;show phpinfo&quot;,
+&quot;author&quot;: {
+ &quot;name&quot;: &quot;Medici.Yan&quot;,
+ &quot;email&quot;: &quot;<a href="../../cdn-cgi/l/email-protection.htm" class="__cf_email__" data-cfemail="f5b890919c969cdbac949bb59298949c99db969a98">[email&#xA0;protected]</a>&quot;
+},
+&quot;category&quot;: &quot;&#x4FE1;&#x606F;&#x83B7;&#x53D6;&quot;,
+&quot;category_en&quot;: &quot;Infomation&quot;,
+&quot;multiple&quot;: false,
+&quot;scripts&quot;: [&quot;php&quot;]
+}
+</code></pre><p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>&#x5165;&#x53E3;&#x811A;&#x672C;&#x4E3A; <code>main.js</code>&#xFF0C;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x4F1A;&#x521B;&#x5EFA;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6; </li>
+<li><code>icon</code>, &#x9009;&#x4E2A;&#x5E05;&#x6C14;&#x7684;&#x706B;&#x7BAD; <a href="http://fontawesome.io/icon/rocket/" target="_blank">rocket</a></li>
+<li><code>miltiple</code> &#x7684;&#x503C;&#x4E3A; <code>false</code>, &#x4E0D;&#x652F;&#x6301;&#x540C;&#x65F6;&#x5904;&#x7406;&#x591A;&#x4E2A; Shell&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x67E5;&#x770B;&#x4E00;&#x4E2A;Shell&#x7684;&#x5C31;&#x591F;&#x4E86;</li>
+<li><code>scripts</code> &#x7684;&#x503C;&#x4EC5;&#x652F;&#x6301; <code>php</code> &#x8FD9;&#x4E00;&#x4E2A;&#x7C7B;&#x578B;</li>
+</ul>
+<blockquote>
+<p>&#x5177;&#x4F53;&#x5176;&#x5B83;&#x5B57;&#x6BB5;&#x542B;&#x4E49;&#x8BF7;&#x53C2;&#x8003;&#x4E0A;&#x4E00;&#x5C0F;&#x8282;&#x300C;<a href="source_files.html">&#x63D2;&#x4EF6;&#x6E90;&#x6587;&#x4EF6;&#x8BF4;&#x660E;</a>&#x300D;</p>
+</blockquote>
+</li>
+<li><p>&#x521B;&#x5EFA;&#x5165;&#x53E3;&#x811A;&#x672C; <code>main.js</code>&#xFF0C;&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code> &apos;use strict&apos;;
+
+ class Plugin {
+     constructor(opt) {
+     // &#x8FD9;&#x91CC;&#x662F;&#x4EE3;&#x7801;
+     }
+ }
+ module.exports = Plugin;
+</code></pre><blockquote>
+<p>&#x6587;&#x4EF6;&#x540D;<code>main.js</code>&#x662F;&#x7531;<code>package.json</code>&#x4E2D;&#x7684; <code>script</code>&#x7684;&#x503C;&#x6307;&#x5B9A;&#x7684;</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<p><strong>&#x73B0;&#x5728;&#x6574;&#x4E2A;&#x76EE;&#x5F55;&#x6811;&#x662F;&#x8FD9;&#x4E2A;&#x6837;&#x5B50;</strong>&#xFF1A;</p>
+<pre><code>plugins-dev
+    |
+    &#x2514;&#x2500;&#x2500; myphpinfo
+        &#x251C;&#x2500;&#x2500; README.md
+        &#x251C;&#x2500;&#x2500; main.js
+        &#x2514;&#x2500;&#x2500; package.json
+</code></pre><p>&#x8FDB;&#x5165;&#x300C;&#x63D2;&#x4EF6;&#x4E2D;&#x5FC3;&#x300D;&#xFF0C;&#x6B64;&#x65F6;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x300C;&#x5F00;&#x53D1;&#x4ED3;&#x5E93;&#x300D;&#x9762;&#x677F;&#x4E0B;&#x5DF2;&#x7ECF;&#x51FA;&#x73B0;&#x4E86;&#x6211;&#x4EEC;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684; <code>myphpinfo</code>&#x63D2;&#x4EF6;&#xFF0C;&#x89C1;&#x4E0B;&#x56FE;&#xFF1A;</p>
+<p><img src="http://as.xuanbo.cc/doc/plugin_dev/create_2.png" alt></p>
+<blockquote>
+<p>&#x4E0D;&#x8FC7;&#x6B64;&#x65F6;&#x8FD9;&#x4E2A;&#x63D2;&#x4EF6;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x529F;&#x80FD;&#xFF0C;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x6765;&#x7F16;&#x5199;&#x4EE3;&#x7801;&#x5B9E;&#x73B0;&#x529F;&#x80FD;&#x3002;</p>
+</blockquote>
+<h4 id="&#x7F16;&#x5199;&#x529F;&#x80FD;&#x4EE3;&#x7801;">&#x7F16;&#x5199;&#x529F;&#x80FD;&#x4EE3;&#x7801;</h4>
+<p>&#x5728;&#x7F16;&#x5199;&#x529F;&#x80FD;&#x4EE3;&#x7801;&#x4E4B;&#x524D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5148;&#x4E86;&#x89E3;&#x4E00;&#x4E0B;&#x6838;&#x5FC3;&#x6846;&#x67B6;&#x5411;&#x63D2;&#x4EF6;&#x4F20;&#x5165;&#x7684;&#x53C2;&#x6570;<code>opt</code>&#x7684;&#x683C;&#x5F0F;:&#x300C;<a href="api.html">&#x63D2;&#x4EF6;&#x53C2;&#x6570;</a>&#x300D;</p>
+<p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x521B;&#x5EFA;&#x4E00;&#x4E2A; tabbar &#x6765;&#x5C06;&#x6700;&#x7EC8;&#x7ED3;&#x679C;&#x663E;&#x793A;&#x51FA;&#x6765;&#xFF0C;&#x8BBE;&#x7F6E;&#x5B83;&#x7684; title &#x4E3A; <code>phpinfo()</code></p>
+<pre><code>const tabbar = require(&apos;ui/tabbar&apos;);
+
+let t = new tabbar();
+t.setTitle(&apos;phpinfo()&apos;);
+t.showLoading();
+</code></pre><p>&#x63A5;&#x7740;&#xFF0C;&#x5B9E;&#x4F8B;&#x5316;&#x4F20;&#x5165;&#x7684; Shell:</p>
+<pre><code>let core = new antSword[&apos;core&apos;][opt[&apos;type&apos;]](opt);
+</code></pre><p>&#x503C;&#x5F97;&#x6CE8;&#x610F;&#x7684;&#x662F; opt[&apos;type&apos;]&#x8868;&#x793A;&#x7684;&#x662F;&#x5F53;&#x524D;Shell&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x63D2;&#x4EF6;&#x91CC;&#x7B49;&#x4E8E; <code>php</code></p>
+<blockquote>
+<p>&#x5982;&#x679C;&#x8BE5;&#x63D2;&#x4EF6;&#x652F;&#x4ED8;&#x7684;&#x7C7B;&#x578B;&#x4E0D;&#x53EA;&#x662F;&#x4E00;&#x79CD;&#x7684;&#x8BDD;&#xFF0C;&#x4F7F;&#x7528;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x52A8;&#x6001;&#x521B;&#x5EFA;Shell&#x5C31;&#x6781;&#x4E3A;&#x65B9;&#x4FBF;&#x4E86;</p>
+</blockquote>
+<p>&#x5B9E;&#x4F8B;&#x5316;&#x5B8C;&#x6BD5;&#x4E4B;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5411; Shell &#x53D1;&#x9001; <code>phpinfo();</code> &#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#xFF0C;&#x8BA9; Shell &#x6267;&#x884C;&#x5E76;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF1A;</p>
+<pre><code>core.request({
+    _: &apos;phpinfo();&apos;
+}).then((_ret) =&gt; {
+    t.safeHTML(_ret[&apos;text&apos;]).showLoading(false);
+}).catch((e) =&gt; {
+    t.close();
+});
+</code></pre><p>&#x4F7F;&#x7528; core.request &#x65B9;&#x6CD5;&#x53D1;&#x9001;&#x6570;&#x636E;&#xFF0C;&#x952E;&#x503C;&#x4E3A; <code>_</code>&#xFF0C;&#x5185;&#x5BB9;&#x4E3A;<code>phpinfo();</code>&#x3002;<code>_</code>&#x7684;&#x503C;&#x4F1A;&#x81EA;&#x52A8;&#x7ECF;&#x8FC7;&#x7F16;&#x7801;&#x5668;&#x52A0;&#x5BC6;&#x5904;&#x7406;&#xFF0C;&#x5982;&#x679C;&#x4EE3;&#x7801;&#x91CF;&#x5927;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x53EF;&#x4EE5;&#x9632;&#x6B62;&#x88AB;&#x622A;</p>
+<p>&#x5904;&#x7406;&#x7ED3;&#x679C;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x8FD4;&#x56DE;&#x6210;&#x529F;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x628A;&#x7ED3;&#x679C;&#x8F93;&#x51FA;&#x5230; tabbar,&#x5982;&#x679C;&#x5931;&#x8D25;&#xFF0C;&#x5C31;&#x628A;&#x521B;&#x5EFA;&#x7684; tabbar &#x5173;&#x95ED;&#x6389;</p>
+<p>&#x6B64;&#x65F6;&#x8BE5;&#x63D2;&#x4EF6;&#x5DF2;&#x7ECF;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x5DE5;&#x4F5C;&#x4E86;&#xFF0C;&#x4F46;&#x662F;&#x8FD8;&#x4E0D;&#x591F;&#x53CB;&#x597D;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5728;&#x6210;&#x529F;&#x65F6;&#x5728;&#x53F3;&#x4E0B;&#x89D2;&#x63D0;&#x793A;&#x4FE1;&#x606F;&#x5904;&#x63D0;&#x793A;&#x8FD4;&#x56DE;&#x6210;&#x529F;&#xFF0C;&#x5931;&#x8D25;&#x65F6;&#x63D0;&#x793A;&#x5931;&#x8D25;&#x5E76;&#x6253;&#x51FA;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x53EF;&#x4EE5;&#x7528;<code>toastr</code>&#x8FD9;&#x4E2A;&#x5168;&#x5C40;&#x901A;&#x77E5;&#x5BF9;&#x8C61;&#x6765;&#x5B9E;&#x73B0;&#x3002;</p>
+<p><strong>&#x6700;&#x7EC8;&#x5B8C;&#x6210;&#x4EE3;&#x7801;&#x5982;&#x4E0B;</strong>&#xFF1A;</p>
+<pre><code>&apos;use strict&apos;;
+
+const tabbar = require(&apos;ui/tabbar&apos;);
+
+class Plugin {
+  constructor(opt) {
+    // &#x521B;&#x5EFA;UI
+    let t = new tabbar();
+    t.setTitle(&apos;myphpinfo()&apos;);
+    t.showLoading();
+    // &#x5B9E;&#x4F8B;&#x5316;PHP Shell
+    let core = new antSword[&apos;core&apos;][opt[&apos;type&apos;]](opt);
+
+    // &#x5411;Shell&#x53D1;&#x8D77;&#x8BF7;&#x6C42;
+    core.request({
+      _: &apos;phpinfo()&apos;
+    }).then((_ret) =&gt; {
+      t.safeHTML(_ret[&apos;text&apos;]).showLoading(false);
+      toastr.success(&apos;&#x83B7;&#x53D6;&#x6210;&#x529F;&#xFF01;&apos;, &apos;Success&apos;);
+    }).catch((e) =&gt; {
+      toastr.error(JSON.stringify(e), &apos;Error&apos;);
+      t.close();
+    });
+  }
+}
+
+module.exports = Plugin;
+</code></pre><h3 id="&#x6D4B;&#x8BD5;&#x63D2;&#x4EF6;">&#x6D4B;&#x8BD5;&#x63D2;&#x4EF6;</h3>
+<p>&#x7F16;&#x5199;&#x5B8C;&#x4EE3;&#x7801;&#x540E;&#xFF0C;&#x91CD;&#x542F;&#x8681;&#x5251;&#xFF0C;&#x968F;&#x4FBF;&#x627E;&#x4E00;&#x4E2A; PHP &#x7C7B;&#x578B;&#x7684; Shell &#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#xFF1A;</p>
+<blockquote>
+<p>&#x70B9;&#x51FB;&#x83DC;&#x5355;&#x680F;&#x300C;&#x8C03;&#x8BD5;&#x300D;&#x83DC;&#x5355;&#x4E0B;&#x7684;&#x300C;&#x91CD;&#x542F;&#x5E94;&#x7528;&#x300D;&#x53EF;&#x5FEB;&#x901F;&#x91CD;&#x542F;</p>
+</blockquote>
+<p><img src="http://as.xuanbo.cc/doc/plugin_dev/create_3.png" alt></p>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x6B64;&#x65F6;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x70B9;&#x51FB;&#x83DC;&#x5355;&#x680F;&#x300C;&#x8C03;&#x8BD5;&#x300D;&#x83DC;&#x5355;&#x4E0B;&#x7684;&#x300C;&#x5F00;&#x53D1;&#x8005;&#x5DE5;&#x5177;&#x300D;&#xFF0C;&#x6253;&#x5F00;&#x5F00;&#x53D1;&#x8005;&#x5DE5;&#x5177;&#xFF0C;&#x5728; <code>Console</code>&#x4E0B;&#x8F93;&#x5165;&#xFF1A;<code>antSword[&quot;logs&quot;]</code>&#x6765;&#x67E5;&#x770B;&#x521A;&#x521A;&#x7684;&#x63D2;&#x4EF6;&#x53D1;&#x9001;&#x7684;&#x6570;&#x636E;&#x5305;&#xFF1A;</p>
+<p><img src="http://as.xuanbo.cc/doc/plugin_dev/create_4.png" alt></p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230; data &#x90E8;&#x5206;&#x53D1;&#x9001;&#x4E86; <code>phpinfo();</code> &#x5230;&#x670D;&#x52A1;&#x7AEF;&#xFF0C;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x66F4;&#x6362;&#x7F16;&#x7801;&#x5668;&#x6253;&#x5370; log &#x89C2;&#x5BDF; data &#x7684;&#x4E0D;&#x540C;&#x4E4B;&#x5904;</p>
+<blockquote>
+<p>&#x5173;&#x4E8E;&#x8C03;&#x8BD5;&#x7684;&#x6280;&#x5DE7;&#x5C06;&#x5728;&#x4E0B;&#x4E00;&#x5C0F;&#x8282;&#x4E2D;&#x8BB2;</p>
+</blockquote>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="source_files.html" class="navigation navigation-prev " aria-label="Previous page: &#x63D2;&#x4EF6;&#x6E90;&#x6587;&#x4EF6;&#x8BF4;&#x660E;"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="deploy.html" class="navigation navigation-next " aria-label="Next page: &#x53D1;&#x5E03;&#x63D2;&#x4EF6;"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-comment/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"comment":{"highlightCommented":true},"autocover":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    
+    
+
+</body></html>
